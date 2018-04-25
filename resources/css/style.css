@@ -1,0 +1,57 @@
+html,
+body {
+  font-family: Helvetica;
+  font-size: 18px;
+  margin: 0;
+  color: white;
+  background-color: black;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* header */
+
+header{
+  background-color: black;
+  align-content: center;
+}
+
+h3 {
+  display: flex;
+  padding-top: 2rem;
+}
+
+header img {
+  height: 1.5rem;
+  display: flex;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  height: 2.32rem;
+}
+
+/* main */
+
+.main {
+  background-image: url(../../resources/images/moto.jpeg);
+  height: 25rem;
+}
+
+.main .container {
+  background-color: black;
+  width: 20rem;
+}
+
+.news h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* nav */
